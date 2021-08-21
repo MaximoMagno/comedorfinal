@@ -35,9 +35,7 @@ header{
     display: flex;
     width: 100%;
     grid-column: 1 / 4;
-    grid-row: 1 / 2;
-    
-    
+    grid-row: 1 / 2;    
 }
 
 .header1{
@@ -45,8 +43,7 @@ header{
     width: 100%;
     display:flex; 
     justify-content: center; 
-    align-items: center;
-    
+    align-items: center;    
 }
 
 .header1 img{
@@ -157,12 +154,6 @@ aside{
     justify-content: space-between;
 }
 
-.contenido3{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 
 @media screen and (max-width: 1024px){
     body{
@@ -223,11 +214,7 @@ aside{
     flex-direction: column;
     justify-content: space-between;
     }
-    .contenido3{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        }
+
 
 }
 
@@ -268,12 +255,6 @@ aside{
         flex-direction: column;
         justify-content: space-between;
     }
-    .contenido3{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        }
-
 }
 
 @media screen and (max-width: 320px){
@@ -313,11 +294,6 @@ aside{
         flex-direction: column;
         justify-content: space-between;
     }
-    .contenido3{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        }
 }
 
 
